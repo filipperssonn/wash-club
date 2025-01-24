@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-@theme {
-  --color-alttext: #f29108;
-  --color-knapp: rgb(241, 147, 0);
+* {
+    font-family: 'Montserrat' sans-serif;
 }
