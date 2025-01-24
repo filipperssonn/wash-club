@@ -1,9 +1,10 @@
 @import "tailwindcss";
 
 * {
-    font-family: "Montserrat" sans-serif;
+    font-family: "Montserrat" sans-serif
 
 }
+
     .container::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
 }

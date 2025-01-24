@@ -46,7 +46,7 @@ export default function HeroSection() {
                 <motion.button
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
-                  className="rounded-xl bg-knapp text-bluebutton font-bold outline-1 outline-gray-300 ml-3 mr-4 px-6 py-3"
+                  className="rounded-xl bg-alttext text-secondary font-bold outline-1 outline-gray-300 ml-3 mr-4 px-6 py-3"
                 >
                   <NavLink to="/program">Tvättprogram</NavLink>
                 </motion.button>
