@@ -51,7 +51,9 @@ export default function HeroSection() {
                   <NavLink to="/program">Tvättprogram</NavLink>
                 </motion.button>
                 <h1 className="text-3xl text-gray-200 font-bold">FRÅN</h1>
-                <h1 className="text-3xl text-alttext font-bold">129 KR</h1>
+                <h1 className="text-3xl text-alttext font-bold bg-footer rounded pl-1 pr-2 py-0.5">
+                  129 KR
+                </h1>
               </motion.div>
             </motion.div>
           </div>
@@ -60,7 +62,7 @@ export default function HeroSection() {
               <div className="flex justify-center">
                 <img src={biltvätt} alt="biltvätt" className="" />
               </div>
-              <div className="h-14 animated-text font-semibold text-3xl bg-stone-300 rounded-2xl px-3 py-2 mt-2">
+              <div className="h-14 animated-text font-semibold text-3xl bg-footer rounded-2xl px-3 py-2 mt-2">
                 Jag vill tvätta i<span className=""></span>
               </div>
             </div>

@@ -33,16 +33,16 @@
     content: "";
     position: absolute;
     width: calc(100% + 8px);
-    background-color: #D6D3D1;
+    background-color: #312f73;
     height: 100%;
-    border-left: 2px solid;
+    border-left: 2px solid #312f73;
     right: -8px;
-    animation: cursor 0.8s infinite, typing 10s steps(12) infinite;
+    animation: cursor 0.5s infinite, typing 10s steps(12) infinite;
 }
 
 @keyframes cursor {
     to{
-        border-left: 2px solid;
+        border-left: 2px solid #312f73;
     }
 }
 
