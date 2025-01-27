@@ -7,8 +7,8 @@ export default function ContentSection() {
   return (
     <>
       <div className="bg-[#b1e1e4] items-center grid grid-cols-1 lg:grid-cols-3  justify-items-center">
-        <div className="bg-gray-100 font-light flex justify-center items-start text-center rounded-lg hover:shadow-2xl text-footer lg:w-[80%] w-[50%] h-[80%] my-10">
-          <div className="flex-col space-y-4 my-10 min-w-xs max-w-lg">
+        <div className="bg-gray-100 font-light flex justify-center items-start text-center rounded-lg hover:shadow-2xl text-footer lg:w-[80%] lg:h-[80%] h-[90%]">
+          <div className="flex-col space-y-4 my-10">
             <div className="text-5xl font-bold m-auto">Bra</div>
             <div className="text-5xl font-bold text-alttext">129 kr</div>
             <div className="text-xl text-footer font-semibold">
@@ -51,8 +51,8 @@ export default function ContentSection() {
             </motion.button>
           </div>
         </div>
-        <div className="bg-gray-100 font-light flex justify-center items-start text-center rounded-lg hover:shadow-2xl text-footer lg:w-[80%] w-[50%] h-[80%] my-10">
-          <div className="flex-col space-y-4 my-10 min-w-xs">
+        <div className="bg-gray-100 font-light flex justify-center items-start text-center rounded-lg hover:shadow-2xl text-footer w-[80%] lg:h-[80%] h-[90%]">
+          <div className="flex-col space-y-4 my-10">
             <div className="text-5xl font-bold m-auto">Bättre</div>
             <div className="text-5xl font-bold text-alttext">179 kr</div>
             <div className="text-xl text-footer font-semibold">Med borstar</div>
@@ -93,7 +93,7 @@ export default function ContentSection() {
             </motion.button>
           </div>
         </div>
-        <div className="bg-gray-100 font-light flex justify-center items-start text-center rounded-lg hover:shadow-2xl text-footer lg:w-[80%] w-[50%] h-[80%] my-10">
+        <div className="bg-gray-100 font-light flex justify-center items-start text-center rounded-lg hover:shadow-2xl text-footer w-[80%] lg:h-[80%] h-[90%]">
           <div className="flex-col space-y-4 my-10">
             <div className="text-5xl font-bold m-auto">Bäst</div>
             <div className="text-5xl font-bold text-alttext">229 kr</div>

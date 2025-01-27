@@ -1,71 +1,87 @@
 @import "tailwindcss";
 
+@theme default {
+  --color-primaryblue: #4f8fb4;
+  --color-footer: #312f73;
+  --color-alttext: #da851f;
+}
+
 * {
-    font-family: "Montserrat" sans-serif
-
+  font-family: "Montserrat" sans-serif;
 }
 
-    .container::-webkit-scrollbar { 
-    display: none;  /* Safari and Chrome */
+.container::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
-    .container::-webkit-scrollbar { 
-        display: none;  /* Safari and Chrome */
-    }
+.container::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
 
 .animated-text {
-    color: white;
-    font-size: 30px;
-    min-width: 280px;
+  color: white;
+  font-size: 30px;
+  min-width: 280px;
 }
 
 .animated-text span {
-    position: relative; 
-
+  position: relative;
 }
 
-.animated-text span::before{
-    content: "";
-    color: #f29108;
-    animation: words 10s infinite;
+.animated-text span::before {
+  content: "";
+  color: #f29108;
+  animation: words 10s infinite;
 }
 
-.animated-text span::after{
-    content: "";
-    position: absolute;
-    width: calc(100% + 8px);
-    background-color: #312f73;
-    height: 100%;
-    border-left: 2px solid #312f73;
-    right: -8px;
-    animation: cursor 0.5s infinite, typing 10s steps(12) infinite;
+.animated-text span::after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 8px);
+  background-color: #312f73;
+  height: 100%;
+  border-left: 2px solid #312f73;
+  right: -8px;
+  animation: cursor 0.5s infinite, typing 10s steps(12) infinite;
 }
 
 @keyframes cursor {
-    to{
-        border-left: 2px solid #312f73;
-    }
+  to {
+    border-left: 2px solid #312f73;
+  }
 }
 
 @keyframes words {
-    0%, 33%{
-        content: " Skoghall.";
-    }
-    
-    34%, 66%{
-        content: " Säffle.";
-    }
-    
-    67%, 100%{
-        content: " Åmål.";
-    }
-    
+  0%,
+  33% {
+    content: " Skoghall.";
+  }
+
+  34%,
+  66% {
+    content: " Säffle.";
+  }
+
+  67%,
+  100% {
+    content: " Åmål.";
+  }
 }
 
 @keyframes typing {
-    15%,25%,45%,60%,75%,85%{
-        width: 0;
-    }
-    5%,33%,40%,66%,70%,90%{
-        width: calc(100% + 8px);
-    }
+  15%,
+  25%,
+  45%,
+  60%,
+  75%,
+  85% {
+    width: 0;
+  }
+  5%,
+  33%,
+  40%,
+  66%,
+  70%,
+  90% {
+    width: calc(100% + 8px);
+  }
 }

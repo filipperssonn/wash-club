@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="bg-[#312f73]  text-gray-300">
           <div
             className="grid grid-rows-2 lg:grid-rows-1 grid-cols-2
-           lg:grid-cols-3 mx-[20%] justify-items-start w-[80%]"
+           lg:grid-cols-3 mx-[10%] justify-items-start w-[90%]"
           >
             <div className="lg:py-20 py-5 flex-col">
               <h2 className="text-xl font-semibold text-white">HÄR FINNS VI</h2>
