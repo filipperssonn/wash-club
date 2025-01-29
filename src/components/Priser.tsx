@@ -3,12 +3,12 @@ import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck, faX } from "@fortawesome/free-solid-svg-icons";
 
-export default function ContentSection() {
+export default function Priser() {
   return (
     <>
-      <div className="bg-[#b1e1e4] items-center grid grid-cols-1 lg:grid-cols-3  justify-items-center">
-        <div className="bg-gray-100 font-light flex justify-center items-start text-center rounded-lg hover:shadow-2xl text-footer lg:w-[80%] lg:h-[80%] h-[90%]">
-          <div className="flex-col space-y-4 my-10">
+      <div className="bg-[#b1e1e4] items-center grid grid-cols-1 lg:grid-cols-3  justify-items-center lg:min-h-[40rem] min-h-[120rem]">
+        <div className="bg-gray-100 font-light flex justify-center items-start text-center rounded-lg hover:shadow-2xl text-footer lg:w-[80%] h-[90%]">
+          <div className="flex-col space-y-4 my-2">
             <div className="text-5xl font-bold m-auto">Bra</div>
             <div className="text-5xl font-bold text-alttext">129 kr</div>
             <div className="text-xl text-footer font-semibold">
@@ -45,14 +45,14 @@ export default function ContentSection() {
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
-              className="rounded-xl bg-alttext text-bluebutton font-bold mt-10 mb-20 px-8 py-4"
+              className="rounded-xl bg-alttext text-bluebutton font-bold px-8 py-4"
             >
               <NavLink to="/kontakt">Ta mig dit!</NavLink>
             </motion.button>
           </div>
         </div>
-        <div className="bg-gray-100 font-light flex justify-center items-start text-center rounded-lg hover:shadow-2xl text-footer w-[80%] lg:h-[80%] h-[90%]">
-          <div className="flex-col space-y-4 my-10">
+        <div className="bg-gray-100 font-light flex justify-center items-start text-center rounded-lg hover:shadow-2xl text-footer lg:w-[80%] h-[90%]">
+          <div className="flex-col space-y-4 my-2">
             <div className="text-5xl font-bold m-auto">Bättre</div>
             <div className="text-5xl font-bold text-alttext">179 kr</div>
             <div className="text-xl text-footer font-semibold">Med borstar</div>
@@ -87,14 +87,14 @@ export default function ContentSection() {
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
-              className="rounded-xl bg-alttext text-bluebutton font-bold mt-10 mb-20 px-8 py-4"
+              className="rounded-xl bg-alttext text-bluebutton font-bold px-8 py-4"
             >
               <NavLink to="/kontakt">Ta mig dit!</NavLink>
             </motion.button>
           </div>
         </div>
-        <div className="bg-gray-100 font-light flex justify-center items-start text-center rounded-lg hover:shadow-2xl text-footer w-[80%] lg:h-[80%] h-[90%]">
-          <div className="flex-col space-y-4 my-10">
+        <div className="bg-gray-100 font-light flex justify-center items-start text-center rounded-lg hover:shadow-2xl text-footer lg:w-[80%] h-[90%]">
+          <div className="flex-col space-y-4 my-2">
             <div className="text-5xl font-bold m-auto">Bäst</div>
             <div className="text-5xl font-bold text-alttext">229 kr</div>
             <div className="text-xl text-footer font-semibold">Med borstar</div>
@@ -129,7 +129,7 @@ export default function ContentSection() {
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
-              className="rounded-xl bg-alttext text-bluebutton font-bold mt-10 mb-20 px-8 py-4"
+              className="rounded-xl bg-alttext text-bluebutton font-bold px-8 py-4"
             >
               <NavLink to="/kontakt">Ta mig dit!</NavLink>
             </motion.button>

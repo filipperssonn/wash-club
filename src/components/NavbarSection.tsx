@@ -23,7 +23,7 @@ export default function NavbarSection() {
           <div className="grid grid-cols-3 items-center text-white text-xl font-semibold px-8">
             <NavLink
               className="{({ isActive})} flex justify-center"
-              to="/program"
+              to="/priser"
             >
               <h1 className="hover:border-b-2 ease-in border-alttext ">
                 Priser

@@ -14,7 +14,7 @@ export const fadeIn = {
 export default function HeroSection() {
   return (
     <>
-      <div className="w-screen h-screen bg-[url('./assets/herosection.jpg')] bg-cover bg-center overflow-x-hidden">
+      <div className="w-screen h-screen bg-[url('./assets/herosection.jpg')] bg-cover bg-center overflow-hidden ">
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:mt-[5%]">
           <div className="flex justify-center lg:justify-end pt-20 h-max w-full">
             <motion.div
@@ -35,7 +35,7 @@ export default function HeroSection() {
               ></motion.div>
               <motion.h1
                 variants={fadeIn}
-                className="text-alttext text-lg sm:text-3xl font-bold flex"
+                className="text-alttext text-xl sm:text-3xl font-bold flex"
               >
                 ÖPPET ALLA DAGAR 7 - 22
               </motion.h1>
@@ -59,7 +59,7 @@ export default function HeroSection() {
               </motion.div>
             </motion.div>
           </div>
-          <div className="flex justify-center items-center pt-20 md:pr-40">
+          <div className="flex justify-center items-center lg:pt-20 md:pr-40">
             <div className="grid grid-rows-2 rounded-2xl w-90">
               <div className="flex justify-center">
                 <img src={biltvätt} alt="biltvätt" className="" />
